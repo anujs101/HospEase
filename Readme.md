@@ -35,9 +35,13 @@
    git clone https://github.com/yourusername/HospEase.git
    cd HospEase
 2. **Install dependencies:**
+
     ```bash
     npm install
-3. ** Set up environment variables **
+    ```
+
+3. **Set up environment variables**
+
     Create a `.env` file in the root directory and add the following:
 
     ```makefile
@@ -45,14 +49,17 @@
     PORT=5000
     MONGODB_URI=your_mongodb_connection_string
     JWT_SECRET=your_jwt_secret
+    ```
 
-4. ** Run the application:**
+4. **Run the application:**
+
     ```bash
     npm run dev
+    ```
 
 5. **Access the Application:**
 
-- Open your browser and navigate to [http://localhost:5000](http://localhost:5000)
+    Open your browser and navigate to [http://localhost:5000](http://localhost:5000)
 
 ## Usage
 
